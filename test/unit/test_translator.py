@@ -184,7 +184,6 @@ complete_eval_set_gibberish = [    # Unintelligible or malformed posts
 ]
 
 def eval_single_response_translation(expected_answer: str, llm_response: str) -> float:
-  '''TODO: Compares an LLM response to the expected answer from the evaluation dataset using one of the text comparison metrics.'''
   model = SentenceTransformer("all-mpnet-base-v2")
 
   sentences = [

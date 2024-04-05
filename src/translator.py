@@ -4,7 +4,6 @@ from google.cloud import aiplatform
 
 import os
 #print present working directory
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="./src/keys.json"
 
 # Import the Vertex AI client librarypi
 from google.cloud import aiplatform
