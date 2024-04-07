@@ -1,9 +1,6 @@
 # translator service
 PROJECT_ID = "cool-automata-417216"
-from google.cloud import aiplatform
-
 import os
-#print present working directory
 
 # Import the Vertex AI client librarypi
 from google.cloud import aiplatform
